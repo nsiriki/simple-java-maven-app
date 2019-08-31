@@ -37,17 +37,17 @@
   
   
   <distributionManagement>
-<repository>
-      <id>deployment</id>
-      <name>Internal Releases1</name>
-      <url>http://54.166.136.107:8081/nexus/content/repositories/central/</url>
-    </repository>
-	
-    <snapshotRepository>
-      <id>deployment</id>
-      <name>Internal Releses</name>
-      <url>http://54.166.136.107:8081/nexus/content/repositories/CA-01/</url>
-    </snapshotRepository>
-    
-  </distributionManagement>
+  <repository>
+    <id>CA</id>
+	<name>Internal Releases1</name>
+    <!-- CHANGE HERE by your team nexus server -->
+    <url>http://18.234.184.197:8081/nexus/content/repositories/CA/</url>
+  </repository>
+  <snapshotRepository>
+    <id>CA_ID</id>
+	<name>Internal Releses</name>
+    <!-- CHANGE HERE by your team nexus server -->
+    <url>http://18.234.184.197:8081/nexus/content/repositories/CA_ID/</url>
+  </snapshotRepository>
+</distributionManagement>
 </project>
