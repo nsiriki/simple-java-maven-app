@@ -38,13 +38,13 @@
   
   <distributionManagement>
   <repository>
-    <id>CA</id>
+    <id>Deployment</id>
 	<name>Internal Releases1</name>
     <!-- CHANGE HERE by your team nexus server -->
     <url>http://18.234.184.197:8081/nexus/content/repositories/CA/</url>
   </repository>
   <snapshotRepository>
-    <id>CA_ID</id>
+    <id>Deployment</id>
 	<name>Internal Releses</name>
     <!-- CHANGE HERE by your team nexus server -->
     <url>http://18.234.184.197:8081/nexus/content/repositories/CA_ID/</url>
